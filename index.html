@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse4Pets</title>
+  <link rel="shortcut icon" href="./c1-assets/logo-header.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style/style.css">
+
+  <!-- Font Awesone  -->
+
+  <script src="https://kit.fontawesome.com/93e90c4c5b.js" crossorigin="anonymous"></script>
+
+  <!-- daisyUI -->
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind CDN -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            btn_primary: '#FFDC26',
+            bg_color: '#FFF9F4'
+
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- google Font -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <style>
+    .Sora_font {
+      font-family: "Sora", serif;
+    }
+  </style>
+
+</head>
+
+<body class="Sora_font">
+
+  <!-- Header Section -->
+
+  <header>
+
+     <!-- Navbar Section -->
+
+     <nav class="bg-bg_color max-sm:border border-yellow-800">
+      <div class="navbar  container mx-auto max-sm:max-w-[90%]  ">
+        <div class="navbar-start">
+
+          <img src="./c1-assets/logo-header.png" alt="">
+          <h2 class="font-bold text-2xl ml-3 max-sm:hidden">Browse<span class="text-[#FFDC26]">4</span>Pets</h2>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Find a pet</a></li>
+            <li><a>Breeds</a></li>
+            <li><a>Contact us</a></li>
+
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox=" 0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <div>
+            <a class=" max-sm:hidden mr-5 text-2xl "><i class="fa-regular fa-bell"></i></a>
+            <a class=" max-sm:hidden mr-5 text-2xl "><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a class="btn border border-yellow-500 max-sm:hidden mr-3 ">Login</a>
+          </div><a class="btn bg-btn_primary max-sm:hidden">Register</a>
+
+        </div>
+      </div>
+    </nav>
+
+   
+  </header>
+
+</body>
+
+</html>
