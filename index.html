@@ -27,7 +27,10 @@
           colors: {
             clifford: '#da373d',
             btn_primary: '#FFDC26',
-            bg_color: '#FFF9F4'
+            bg_navbar: '#FFF9F4',
+            card_bg: '#F9DF8A',
+            footer_bg: 'rgba(255, 220, 38, 0.50)'
+
 
           }
         }
@@ -40,9 +43,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+  <!-- ADLaM Display google font -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
   <style>
     .Sora_font {
       font-family: "Sora", serif;
+    }
+
+    .ADLaM_font {
+      font-family: "ADLaM Display", serif;
     }
   </style>
 
@@ -54,10 +67,10 @@
 
   <header>
 
-     <!-- Navbar Section -->
+    <!-- Navbar Section -->
 
-     <nav class="bg-bg_color max-sm:border border-yellow-800">
-      <div class="navbar  container mx-auto max-sm:max-w-[90%]  ">
+    <nav class="bg-bg_navbar max-sm:border border-yellow-800">
+      <div class="navbar  max-w-7xl mx-auto max-sm:max-w-[90%]  ">
         <div class="navbar-start">
 
           <img src="./c1-assets/logo-header.png" alt="">
@@ -82,14 +95,43 @@
             <a class=" max-sm:hidden mr-5 text-2xl "><i class="fa-regular fa-bell"></i></a>
             <a class=" max-sm:hidden mr-5 text-2xl "><i class="fa-solid fa-magnifying-glass"></i></a>
             <a class="btn border border-yellow-500 max-sm:hidden mr-3 ">Login</a>
-          </div><a class="btn bg-btn_primary max-sm:hidden">Register</a>
+            <a class="btn bg-btn_primary max-sm:hidden">Register</a>
+          </div>
 
         </div>
       </div>
     </nav>
+    
+ <!-- Banner Section -->
 
-   
+ <section>
+  <div class="max-w-7xl mx-auto ">
+    <div class="mb-10 max-sm:max-w-[90%] mx-auto">
+      <div class="mt-16  ">
+        <h2 class="text-5xl ADLaM_font ">Pamper Your Pet,<br> Because They Deserve <br>
+          the Bes</h2>
+          <p class="xl:hidden mt-4 text-zinc-500">A pet shop or pet store is an essential services retailer which sells animals and pet  resources to the public</p>
+        <a class="btn bg-btn_primary mt-6">Find a pet</a>
+      </div>
+
+      <img src="./c1-assets/cat-big.png" alt="">
+    </div>
+  </div>
+</section>
+  
   </header>
+
+  <!-- Main Section -->
+
+  <main>
+
+  </main>
+
+  <!-- Footer Section -->
+
+  <!-- <footer class="bg-footer_bg w-full h-[41rem]">
+  
+  </footer> -->
 
 </body>
 
